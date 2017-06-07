@@ -5,7 +5,7 @@ A web page that accepts a year, and determines if the year is or will be a leap 
 |Behavior - Plain English|Input|Output|
 |---|---|---|
 |Add "way" to one-letter word consisting of a vowel|"a"|"away"|
-|Add "way" to all words that begin with a vowel|"away"|"awayway"|
+|Add "way" to any single words that begins with a vowel|"away"|"awayway"|
 |For words beginning with one consonant, move consonant to end of word and add "ay"|"pack"|"ackpay"|
 |"Y" is considered a consonant|"yard"|"ardyay"|
 |For words beginning with "qu", move "qu" to end of word and add "ay"|"queen"|"eenquay"|
