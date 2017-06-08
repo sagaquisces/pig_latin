@@ -1,5 +1,5 @@
-# Leap Year Calculator
-A web page that accepts a year, and determines if the year is or will be a leap year...um, year.
+# Pig Latin Generator
+A web page that accepts a word in English and provides Pig Latin version.
 
 
 |Behavior - Plain English|Input|Output|
@@ -11,16 +11,6 @@ A web page that accepts a year, and determines if the year is or will be a leap 
 |For words beginning with "qu", move "qu" to end of word and add "ay"|"queen"|"eenquay"|
 |For words beginning with >1 consonants, move consonants to end of word (in order) and add "ay"|"pray"|"aypray"|
 |For words that do not begin with "q", but have "q" in beginning consonant cluster, move consonant cluster INCLUDING the "u" to the end of the word and add "ay"|"squeal"|"ealsquay"|
-
-
-
-
-
-|Add "ay" to single-letter words beginning with a vowel|"a"|"away"|
-|Add "ay" to words with one or more consonants|2004|true|
-|A year is not a leap year if it is divisible by 100|1900|false|
-|A year is a leap year if it's divisible by 400|2000|true|
-
 
 ## What's included
 Within the repository you'll find the following directories and files:
@@ -42,7 +32,6 @@ pig_latin/
 * JavaScript
 * jQuery
 * Bootstrap
-* Google Fonts
 
 ### License
 Copyright 2017 Anna Timofeeva and Michael Dunlap
