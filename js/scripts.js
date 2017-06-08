@@ -27,7 +27,9 @@ var pigLatin = function(inputtedString) {
   var thirdLetter = inputtedString.charAt(2);//will return a null string if no third letter
   var pigString = "";
 
-  if (isVowel(firstLetter)) { //all words with vowels will get "way"
+	if (!isLetter(firstLetter)) {
+		return inputtedString;
+	} else if (isVowel(firstLetter)) { //all words with vowels will get "way"
     pigString = inputtedString + "way";
   } else if (firstLetter === "q" && secondLetter === "u") {
     pigString = inputtedString.slice(2) + "quay";

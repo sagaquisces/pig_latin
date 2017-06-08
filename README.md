@@ -4,6 +4,7 @@ A web page that accepts a word in English and provides Pig Latin version.
 
 |Behavior - Plain English|Input|Output|
 |---|---|---|
+|Do nothing to non-alpha string|"33"|"33"|ß
 |Add "way" to one-letter word consisting of a vowel|"a"|"away"|
 |Add "way" to any single words that begins with a vowel|"away"|"awayway"|
 |For words beginning with one consonant, move consonant to end of word and add "ay"|"pack"|"ackpay"|
